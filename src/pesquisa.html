@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+  <title>Pesquisa</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function Verificar() {
+      let n, i, e, y;
+      n = document.getElementById("txtNome").value;
+      if (n.length === 0) {
+        alert("Preencha o campo nome");
+        document.pesquisa.txtNome.style.background = "#E9967A";
+        document.pesquisa.txtNome.focus();
+        return false;
+      }
+      i = document.getElementById("txtIdade").value;
+      if (isNaN(i) || i.length === 0) {
+        alert("Preencha o campo idade");
+        document.pesquisa.txtIdade.style.background =
+          "#E9967A";
+        "#E9967A";
+        document.getElementById("txtIdade").value = "";
+        document.pesquisa.txtIdade.focus();
+        return false;
+      }
+      e = document.getElementById("txtEmail").value;
+      if (e.indexOf("@") < 0) {
+        alert("Preencha o campo e-mail");
+        document.pesquisa.txtIdade.style.background =
+          document.pesquisa.txtIdade.focus();
+        return false;
+      }
+      document.pesquisa.submit();
+    } </script>
+</head>
+<body>
+<!-- menu -->
+<header>
+  <nav class="menu1">
+    <a class="logo" href="index.html">Pilarcode</a>
+    <ul class="menuItens">
+      <li><a class="menu" href="index.html">Início</a></li>
+      <li><a class="menu" href="services.html">Serviços</a></li>
+      <li><a class="menu" href="contact.html">Contato</a></li>
+      <li><a class="menu" href="pesquisa.html">Pesquisa</a></li>
+    </ul>
+  </nav>
+</header>
+<!--Cadastro-->
+<div class="pesquisaDiv">
+  <form name="pesquisa" action="save.jsp" method="post"
+        class="pesquisaForm">
+    <p class="tituloCliente"> INFORMAÇÕES </p>
+
+    Nome: <input type="text" name="txtNome" id="txtNome" class="nomeCliente"> <br>
+    Idade: <input type="text" name="txtIdade" id="txtIdade" class="idadeCliente"> <br>
+    Email: <input type="text" name="txtEmail" id="txtEmail" class="emailCliente"> <br>
+    <input type="submit" value="Gravar" onclick="Verificar()" id="buttom" class="buttomCliente">
+  </form>
+</div>
+<!--Texto explicação-->
+<p class="textExplicacao">
+  Está pesquisa é uma forma de conhecermos melhor nossos clientes
+  e os seguidores do nosso site! Obrigado
+  aqueles que responderam-na!
+</p>
+<!--footer-->
+<hr>
+<footer class="footer">
+  <div class="footerDiv">
+    <p class="logoFooter">Pilarcode</p>
+    <p class="textFooter1">
+      A tecnologia só é tecnologia para quem nasceu antes
+      dela ter sido inventada.
+    </p>
+    <p class="textFooter3"> - Alan Kay</p>
+  </div>
+  <div class="footerDiv2">
+    <p class="navigationFooter">Navegação</p>
+    <a class="textFooter2" href="index.html">Início</a>
+    <a class="textFooter2" href="services.html">Serviços</a> <a class="textFooter2" href="contact.html">Contato</a> <a
+    class="textFooter2"
+    href="pesquisa.html">Pesquisa</a></a> </div>
+
+</footer>
+</body>
+</html>

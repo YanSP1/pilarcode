@@ -1,245 +1,398 @@
 body {
-    background: #060554;
+  background: #060554;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 /*MENU*/
 .menu {
-    color: aliceblue;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 13px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: aliceblue;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande ', ' Lucida Sans ', Arial, sans-serif;
 }
 
 a:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .logo {
-    font-size: 30px;
-    color: aliceblue;
-    text-decoration: none;
-    transition: 0.3s;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+  font-size: 30px;
+  color: aliceblue;
+  text-decoration: none;
+  transition: 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande ', ' Lucida Sans ', Arial, sans-serif;
+  font-weight: bold;
 }
 
 .menu1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #060554;
-    height: 11vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #060554;
+  height: 11vh;
 }
 
 .menuItens {
-    list-style: none;
-    display: flex;
-    font-size: 15px;
+  list-style: none;
+  display: flex;
+  font-size: 15px;
 }
 
 .menuItens li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-}
-
-/*Page Talk*/
-.pageTalk {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #D9D9D9;
-    height: 50vh;
-}
-
-.pageTalkText {
-    width: 480px;
-    font-size: 50px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.pageTalkButton {
-    background: #211CDA;
-    color: aliceblue;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border: #D9D9D9;
-    cursor: pointer;
-}
-
-.pageTalkButton:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    opacity: 0.9;
-}
-
-/*Page Work*/
-.tittleBestWorkDiv {
-    display: flex;
-    justify-content: space-around;
-    background: rgb(255, 255, 255);
-    height: 15vh;
-}
-
-.cardBestWorkDiv {
-    display: flex;
-    background: rgb(255, 255, 255);
-    height: 40vh;
-}
-
-.titleBestWork {
-    margin-top: 15px;
-    font-size: 45px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.cardBestWork {
-    width: 200px;
-    background-color: #D9D9D9;
-    display: block;
-    margin-left: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.cardBestWorkText {
-    display: flex;
-    border: 50px;
-    font-size: 17px;
-    margin: 10px;
-    font-family: sans-serif;
-    margin-bottom: 5px;
-}
-
-.cardBestWorkTitle {
-    margin: 40px;
-    margin-bottom: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-/*More Thank*/
-
-.moreThankDiv {
-    height: 50vh;
-    text-align: center;
-}
-
-.moreThankTittle {
-    margin: 50px;
-    margin-top: 180px;
-    font-size: 70px;
-    color: aliceblue;
-    font-family: sans-serif;
-}
-
-/*Contact Us*/
-
-.contactUs {
-    display: flex;
-    align-items: left;
-    background: #D9D9D9;
-    height: 60vh;
-    text-align: left;
-
-}
-
-.contactUsDiv {
-    margin-left: 50px;
-}
-
-.contactUsTittle {
-    font-size: 60px;
-    color: black;
-    text-decoration: none;
-    font-family:  sans-serif;
-    font-weight: bold;
-    margin-top: 90px;
-}
-
-.contactUsText {
-    display: flex;
-    margin-top: 15px;
-    justify-content: space-around;
-    color: aliceblue;
-    width: 490px;
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    font-family: sans-serif;
-}
-
-.contactUsBlock {
-    width: 900px;
-    text-align: right;
-    margin-left: 139px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #211CDA;
+  letter-spacing: 3px;
+  margin-left: 32px;
 }
 
 /*footer*/
 hr {
-    background-color: #14a5bb;
-    border: none;
-    height: 6px;
+  background-color: #14a5bb;
+  border: none;
+  height: 6px;
 }
 
 .footer {
-    display: flex;
-    text-align: left;
-    background: #060554;
-    margin-left: 60px;
-    margin-top: 50px;
-    width: 50px;
-    height: 30vh;
+  display: flex;
+  text-align: left;
+  background: #060554;
+  margin-left: 60px;
+  margin-top: 50px;
+  width: 50px;
+  height: 30vh;
 }
 
 .logoFooter {
-    font-size: 30px;
-    color: aliceblue;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+  font-size: 30px;
+  color: aliceblue;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande ', ' Lucida Sans ', Arial, sans-serif;
+  font-weight: bold;
 }
 
 .textFooter1 {
-    display: flex;
-    margin-top: 15px;
-    justify-content: space-around;
-    color: aliceblue;
-    width: 430px;
-    text-decoration: none;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+  color: aliceblue;
+  width: 430px;
+  text-decoration: none;
 }
 
 .navigationFooter {
-    font-size: 30px;
-    color: aliceblue;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+  font-size: 30px;
+  color: aliceblue;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande ', ' Lucida Sans ', Arial, sans-serif;
+  font-weight: bold;
 }
 
 .footerDiv2 {
-    margin-left: 190px;
-    text-align: left;
+  margin-left: 190px;
+  text-align: left;
 }
 
 .textFooter2 {
-    color: aliceblue;
-    text-decoration: none;
-    font-family: sans-serif;
-    margin-top: 5px;
-    display: flex;
+  color: aliceblue;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-top: 5px;
+  display: flex;
+}
+
+.textFooter3 {
+  color: aliceblue;
+  text-decoration: none;
+  margin-top: 5px;
+  display: flex;
+  font-size: 15px;
+}
+
+/*Page Talk*/
+.pageTalk {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  background: #D9D9D9;
+  height: 50vh;
+}
+
+.pageTalkText {
+  width: 480px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pageTalkButton {
+  background: #211CDA;
+  color: aliceblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: #D9D9D9;
+  cursor: pointer;
+}
+
+.pageTalkButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.9;
+}
+
+/*Page Work*/
+.tittleBestWorkDiv {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(255, 255, 255);
+  height: 15vh;
+}
+
+.cardBestWorkDiv {
+  display: flex;
+  background: rgb(255, 255, 255);
+  height: 40vh;
+}
+
+.titleBestWork {
+  margin-top: 15px;
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cardBestWork {
+  width: 210px;
+  background-color: #D9D9D9;
+  display: block;
+  margin-left: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cardBestWorkText {
+  display: flex;
+  border: 50px;
+  font-size: 17px;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+.cardBestWorkTitle {
+  margin: 30px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/*More Thank*/
+.moreThankDiv {
+  height: 40vh;
+  text-align: center;
+}
+
+.moreThankTittle {
+  margin: 50px;
+  margin-top: 90px;
+  font-size: 70px;
+
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.pageTalkButton2 {
+  background: #211CDA;
+  color: aliceblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: #D9D9D9;
+  cursor: pointer;
+}
+
+.pageTalkButton2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.9;
+}
+
+/*Contact Us*/
+.contactUs {
+  display: flex;
+  align-items: flex-start;
+  background: #D9D9D9;
+  height: 60vh;
+  text-align: left;
+}
+
+.contactUsDiv {
+  margin-left: 50px;
+}
+
+.contactUsTittle {
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  margin-top: 90px;
+}
+
+.contactUsText {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+  color: aliceblue;
+  width: 490px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.informacoesContact {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  text-align: right;
+  margin-left: 149px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  text-align: center;
+  border-style: solid;
+  border-color: #211CDA;
+  border-width: 20px;
+}
+
+.informacoesContactText1 {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.informacoesContactText2 {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.informacoesContactText3 {
+  margin: 20px;
+  font-size: 30px;
+
+}
+
+/*Our Services*/
+.tittleOurServicesDiv {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(255, 255, 255);
+  height: 15vh;
+}
+
+.tittleOurServices {
+  margin-top: 15px;
+  font-size: 45px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cardOurServicesDiv {
+  display: flex;
+  background: rgb(255, 255, 255);
+  height: 50vh;
+}
+
+.cardOurServices {
+  width: 300px;
+  background-color: #D9D9D9;
+  display: block;
+  margin-left: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cardOurServicesTittle {
+  margin: 40px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.cardOurServicesText {
+  display: flex;
+  border: 50px;
+
+  font-size: 15px;
+  margin: 10px;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+
+/*Cadastro*/
+.pesquisaDiv {
+  color: aliceblue;
+  text-align: center;
+}
+
+.pesquisaForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tituloCliente {
+  font-size: 90px;
+  margin: 15px
+}
+
+.nomeCliente {
+  font-size: 15px;
+  width: 250px;
+}
+
+.emailCliente {
+  font-size: 15px;
+  width: 250px;
+}
+
+.idadeCliente {
+  font-size: 15px;
+  width: 250px;
+}
+
+.buttomCliente {
+  background: #211CDA;
+
+  color: aliceblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: #D9D9D9;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.buttomCliente:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.9;
+}
+
+/*Texto explicação*/
+.textExplicacao {
+  text-align: center;
+  color: aliceblue;
+  margin: 20px;
 }
